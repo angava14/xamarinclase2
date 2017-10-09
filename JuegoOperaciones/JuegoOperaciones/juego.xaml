@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JuegoOperaciones.juego">
+
+
+
+    <StackLayout  Orientation="Vertical"   VerticalOptions="CenterAndExpand" >
+        <Label x:Name="cualva" />
+
+        <StackLayout  Orientation="Horizontal">
+            <Label x:Name="numero1" />
+            <Label x:Name="signo" />
+            <Label x:Name="numero2" />
+        </StackLayout>
+
+        <Entry x:Name="respuesta" Placeholder="Respuesta:"></Entry>
+            <Button Text="Aceptar" Clicked="siguiente"></Button>
+        </StackLayout>
+   
+</ContentPage>
